@@ -1,7 +1,7 @@
 HibernationFixup
 ==================
 
-[![Build Status](https://github.com/acidanthera/HibernationFixup/workflows/CI/badge.svg?branch=master)](https://github.com/acidanthera/HibernationFixup/actions) [![Scan Status](https://scan.coverity.com/projects/16402/badge.svg?flat=1)](https://scan.coverity.com/projects/16402)
+[![Build Status](https://github.com/devicemanager/HibernationFixup/workflows/CI/badge.svg?branch=master)](https://github.com/devicemanager/HibernationFixup/actions) [![Scan Status](https://scan.coverity.com/projects/16402/badge.svg?flat=1)](https://scan.coverity.com/projects/16402)
 
 An open source kernel extension providing a sync between RTC variables and NVRAM.
 By design the mach kernel encrypts hibernate sleepimage and writes the encryption key to variable 
@@ -63,7 +63,7 @@ The following options can be stored in NVRAM (GUID = E09B9297-7928-4440-9AAB-D1F
 
 
 #### Dependencies
-- [Lilu](https://github.com/acidanthera/Lilu)
+- [Lilu](https://github.com/devicemanager/Lilu)
 
 #### Credits
 - [Apple](https://www.apple.com) for macOS  
